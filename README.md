@@ -18,23 +18,24 @@ npm install
 
 ## 🔹 Configuração do Banco de Dados 
 Antes de rodar a API, crie o **banco de dados** e a tabela "livro":
-CREATE DATABASE biblioteca;
-USE biblioteca;
-CREATE TABLE livro (
-  id INT AUTO_INCREMENT PRIMARY KEY,
-  titulo VARCHAR(255) NOT NULL,
-  autor VARCHAR(255) NOT NULL,
-  isbn VARCHAR(255) NOT NULL,
-  anopublicacao INT NOT NULL
+
+CREATE DATABASE biblioteca;  
+USE biblioteca;  
+CREATE TABLE livro (  
+  id INT AUTO_INCREMENT PRIMARY KEY,  
+  titulo VARCHAR(255) NOT NULL,  
+  autor VARCHAR(255) NOT NULL,  
+  isbn VARCHAR(255) NOT NULL,  
+  anopublicacao INT NOT NULL  
 );
 
 ## 🔹 Configuração do .env
-Crie um arquivo .env na raiz do projeto e preencha suas credenciais:
-PORT=3000
-DB_HOST=localhost
-DB_USER=root
-DB_PASS=sua_senha
-DB_NAME=biblioteca
+Crie um arquivo .env na raiz do projeto e preencha suas credenciais:  
+PORT=3000  
+DB_HOST=localhost  
+DB_USER=root  
+DB_PASS=sua_senha  
+DB_NAME=biblioteca  
 
 ## 🔹 Rodando o Projeto
 ```bash
