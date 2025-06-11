@@ -11,7 +11,7 @@ Uma API RESTful em **TypeScript** utilizando **Express** e **MySQL** para gerenc
 ## 🔹 Instalação  
 Clone o repositório e instale as dependências:  
 ```bash
-git clone https://github.com/seu-usuario/api-livros.git
+git clone https://github.com/raquelbrombilla/api-gerenciamento-biblioteca.git
 cd api-livros
 npm install
 ```
